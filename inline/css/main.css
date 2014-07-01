@@ -121,8 +121,33 @@ i {
 
 
 /* HeaderWrap */
+#headerwrap_carousel {
+	background: url(../img/ipad-hand.png) no-repeat center top;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap_carousel h1 {
+	color: white;
+    font-style: bold;
+	font-size: 45px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+#headerwrap_carousel h3 {
+    color: white;
+}
+
 #headerwrap {
-	background: url(../img/mono-clouds.jpg) no-repeat center top;
+	background: url(../img/ipad-hand.png) no-repeat center top;
 	background-color: #3498db;
 	margin-top: -20px;
 	padding-top: 100px;
@@ -149,4 +174,10 @@ i {
 	font-size: 45px;
 	font-weight: 300;
 	letter-spacing: 1px;
+}
+
+#mc_embed_signup{
+    background: #fff;
+    clear:left;
+    font-size:14px;
 }
