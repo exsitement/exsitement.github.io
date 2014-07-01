@@ -122,10 +122,10 @@ i {
 
 /* HeaderWrap */
 #headerwrap {
-	/* background: url(../img/bg01.jpg) no-repeat center top; */
+	background: url(../img/mono-clouds.jpg) no-repeat center top;
 	background-color: #3498db;
 	margin-top: -20px;
-	padding-top:200px;
+	padding-top: 100px;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
@@ -143,7 +143,7 @@ i {
 }
 
 #headerwrap h1 {
-	margin-top: 60px;
+	margin-top: 10px;
 	margin-bottom: 15px;
 	color: white;
 	font-size: 45px;
