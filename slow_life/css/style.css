@@ -49,15 +49,6 @@ body{
 	 z-index:9;
 	 background:url(../img/bg.png);
 }
-.details {
-    float: left:
-    width: 300px;
-    clear: both;
-    position: absolute;
-    top: 0;
-    z-index: 9;
-    background: url(../img/bg.png);
-}
 nav {
 	width: 100%;
 	position: relative;
@@ -347,7 +338,7 @@ nav a#pull:after {
 	width: 29.2%;
 	padding:1.5%; 
 }
-.
+.images_1_of_3  img {
 	max-width:100%;
 	display:block;
 }
