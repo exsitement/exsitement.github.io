@@ -20,3 +20,9 @@ $(function() {
 $(window).load(function() {
     $('#slider').nivoSlider();
 });
+
+$(function() {
+    var BV = new $.BigVideo();
+    BV.init();
+    BV.show(['vid/coffeecup.mp4','vid/creamer.mp4'],{ambient:true});
+});

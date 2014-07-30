@@ -122,7 +122,7 @@ i {
 
 /* HeaderWrap */
 #headerwrap_carousel {
-	background: url(../img/default) no-repeat center top;
+	background: url(../img/{{ splash_image }}) no-repeat center top;
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -147,7 +147,7 @@ i {
 }
 
 #headerwrap {
-	background: url(../img/default) no-repeat center top;
+	background: url(../img/{{ splash_image }}) no-repeat center top;
 	background-color: #3498db;
 	margin-top: -20px;
 	padding-top: 100px;
