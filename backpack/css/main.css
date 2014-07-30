@@ -1,7 +1,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: {{ fonts.main }},"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: ,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #000;
 }
@@ -19,7 +19,7 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: {{ fonts.heading }},"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Ubuntu Mono, Arial, sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -59,7 +59,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: {{ fonts.nav }},"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: ,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
 
@@ -127,7 +127,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/{{ splash_image }}) no-repeat bottom center scroll;
+    background: url(../img/ct-aerial.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -247,14 +247,15 @@ a:focus {
 .route {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
+    color: #5B6571;
     text-align: left;
-    background: url(../img/zanzibar.jpg) no-repeat center center scroll;
+    background: url(../img/vfalls.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    font-color: #71664B;
 }
 
 .faq {
@@ -275,10 +276,8 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    {% if images.about %}
-    background: url(../img/{{ images.about }}) no-repeat center center scroll;
-    {% endif %}
-    background-color: {{ colours.about_bg }};
+    
+    background-color: ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -308,7 +307,7 @@ a:focus {
 
 .btn {
     text-transform: uppercase;
-    font-family: {{ fonts.button }},"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: ,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;

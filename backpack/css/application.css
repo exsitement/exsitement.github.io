@@ -17,7 +17,7 @@ html, body, h1 {
 }
 
 h1 {
-  font-size: 3.64058em;
+  font-size: 40px;
 }
 
 h2 {
@@ -299,6 +299,7 @@ header h1 {
     padding: 0 0 10px 0;
     font-size: 1.7em;
     border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 35px;
 }
 
 header h1 span {
@@ -308,4 +309,9 @@ header h1 span {
 header p {
     font-family: Cambria, Georgia, serif;
     font-style: italic;
+}
+
+.navbar-nav>li>a {
+    font-size: 40px;
+    font-color: #263D4C; 
 }
