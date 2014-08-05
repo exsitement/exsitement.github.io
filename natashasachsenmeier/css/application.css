@@ -12,15 +12,12 @@ body {
 
 h1 {
     position: absolute;
-    left: 50%; 
-
-    font-size: 72px;
     text-align: right;
-
     letter-spacing: -1px;  
-    padding: 20px; 
-
     color: #21130F; 
+    font-size: 100px;
+    right: 100px; 
+    padding: 20px; 
     /*
     RGB: 0, 0, 0
     HEX: #000000
@@ -71,4 +68,12 @@ h1 {
     RGB: 214, 191, 165
     HEX: #D6BFA5
     */
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+        right: 10px;
+    }
 }
