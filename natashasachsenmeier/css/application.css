@@ -1,0 +1,74 @@
+body {
+    font-family: 'Great Vibes', cursive;
+}
+
+.background {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+}
+
+h1 {
+    position: absolute;
+    left: 50%; 
+
+    font-size: 72px;
+    text-align: right;
+
+    letter-spacing: -1px;  
+    padding: 20px; 
+
+    color: #21130F; 
+    /*
+    RGB: 0, 0, 0
+    HEX: #000000
+    RGB: 33, 19, 15
+    HEX: #21130F
+    RGB: 75, 58, 37
+    HEX: #4B3A25
+    RGB: 86, 76, 63
+    HEX: #564C3F
+    RGB: 117, 93, 61
+    HEX: #755D3D
+    RGB: 104, 96, 91
+    HEX: #68605B
+    RGB: 129, 108, 79
+    HEX: #816C4F
+    RGB: 135, 119, 98
+    HEX: #877762
+    RGB: 146, 122, 89
+    HEX: #927A59
+    RGB: 148, 131, 106
+    HEX: #94836A
+    RGB: 162, 137, 104
+    HEX: #A28968
+    RGB: 159, 144, 120
+    HEX: #9F9078
+    RGB: 173, 146, 108
+    HEX: #AD926C
+    RGB: 163, 151, 133
+    HEX: #A39785
+    RGB: 176, 152, 118
+    HEX: #B09876
+    RGB: 182, 159, 129
+    HEX: #B69F81
+    RGB: 180, 160, 131
+    HEX: #B4A083
+    RGB: 192, 164, 132
+    HEX: #C0A484
+    RGB: 190, 169, 139
+    HEX: #BEA98B
+    RGB: 187, 169, 146
+    HEX: #BBA992
+    RGB: 199, 177, 147
+    HEX: #C7B193
+    RGB: 197, 178, 156
+    HEX: #C5B29C
+    RGB: 206, 183, 151
+    HEX: #CEB797
+    RGB: 214, 191, 165
+    HEX: #D6BFA5
+    */
+}
